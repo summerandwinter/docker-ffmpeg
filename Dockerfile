@@ -901,6 +901,7 @@ RUN \
     --disable-debug \
     --disable-doc \
     --disable-ffplay \
+    --enable-libdovi \
     --enable-alsa \
     --enable-cuda-llvm \
     --enable-cuvid \
