@@ -24,7 +24,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v5
         with:
-          images: ${{ secrets.DOCKER_USERNAME }}/base
+          images: ${{ secrets.DOCKER_USERNAME }}/ffmpeg
           tags: |
             type=raw,value=${{ env.app_version }}
             type=raw,value=latest
